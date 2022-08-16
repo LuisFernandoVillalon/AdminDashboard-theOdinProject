@@ -3,17 +3,26 @@
     padding: 0;
     
 }
+body {
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  color: #713f12;
+  font-size: 5px;
+}
 .dashboard-container {
     display: grid;
     height: 100vh;
-    font-size: 5px;
+    /* font-size: 5px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    color: #713f12; */
     grid-template-columns: 1fr 4fr;
 }
-.dashboard-container div {
+/* .dashboard-container div {
     font-family: "Courier New", monospace;
     font-weight: bold;
     color: #713f12;
-}
+} */
 .logo-box p {
     font-size: 8px;
 }
