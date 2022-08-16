@@ -7,7 +7,7 @@ body {
   font-family: "Courier New", monospace;
   font-weight: bold;
   color: #713f12;
-  /* font-size: 5px; */
+  font-size: 5px;
 }
 .dashboard-container {
     display: grid;
@@ -23,9 +23,9 @@ body {
     font-weight: bold;
     color: #713f12;
 } */
- .logo-box p {
-    /* font-size: 8px; */
-} 
+.logo-box p {
+    font-size: 8px;
+}
 .logo-box {
     display: flex;
     gap: 5px;
@@ -84,7 +84,7 @@ i {
   input {
     width: 1fr;
     height: 10px;
-    /* font-size: 5px; */
+    font-size: 5px;
   }
   .logo-box-search {
     display: flex;
@@ -113,7 +113,7 @@ i {
     justify-content: space-between;
     }
   .fa {
-    /* font-size: 5px; */
+    font-size: 5px;
   }
   .icon-account-container {
     display: flex;
@@ -148,7 +148,7 @@ i {
     color:#713f12;
 }
 .info-box p + p {
-    /* font-size: 6px; */
+    font-size: 6px;
 }
 .button-container {
   display: flex;
@@ -161,7 +161,7 @@ i {
     color:#eab308;
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
-    /* font-size: 5px; */
+    font-size: 5px;
     transition: all .2s ease-in-out; 
 
 }
@@ -215,13 +215,13 @@ button:hover {
 }
 
 .card p {
-  /* font-size: 3px; */
+  font-size: 3px;
   font-weight: lighter;
 
 }
 .card-icon-box {
   display: flex;
-  /* font-size: 4px; */
+  font-size: 4px;
   justify-content: flex-end;
   gap: 5px;
   padding: 5px;
@@ -277,7 +277,7 @@ hr {
   border-width: 0px;
 }
 .seperate p {
-  /* font-size: 3px; */
+  font-size: 3px;
   font-weight: lighter;
 }
 .trending-flex {
