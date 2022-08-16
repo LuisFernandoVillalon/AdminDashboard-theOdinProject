@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-   
+    
 }
 .dashboard-container {
     display: grid;
@@ -30,7 +30,12 @@ ul > span {
 }
 li {
     display: grid;
+    transition: all .2s ease-in-out; 
     height: 10px;
+}
+i {
+  transition: all .2s ease-in-out; 
+
 }
 .sidebar-container {
     display: grid;
@@ -51,9 +56,13 @@ li {
   }
   li:hover {
     color: #ca8a04;
+    transform: scale(1.1); 
+
   }
   i:hover {
     color: #ca8a04;
+    transform: scale(1.1); 
+
   }
   .row-one {
     display: flex;
@@ -144,11 +153,15 @@ li {
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 5px;
+    transition: all .2s ease-in-out; 
+
 }
 button:hover {
   background-color: #fde047;
   color: #713f12;
   border-color: #fde047;
+  transform: scale(1.1); 
+
 }
 .content-container {
   display: grid;
@@ -184,6 +197,12 @@ button:hover {
   border-width: 1.5px;
   box-shadow: 0 0 10px #713f12;
   border-radius: 5px 0px 5px 0px;
+  transition: all .2s ease-in-out; 
+}
+.card:hover {
+  border-left: solid #fde047;
+  border-width: 1.5px;
+  transform: scale(1.1); 
 }
 
 .card p {
@@ -221,7 +240,7 @@ button:hover {
 .a-card {
   display: flex;
   padding: 5px;
-  
+  transition: all .2s ease-in-out; 
   height: 0.5fr;
   width: 4fr;
   flex-direction: column;
@@ -231,6 +250,11 @@ button:hover {
   box-shadow: 0 0 10px #713f12;
   border-radius: 0px 5px 0px 5px;
   margin-top: 7px;
+}
+.a-card:hover {
+  border-right: solid #fde047;
+  border-width: 1.5px;
+  transform: scale(1.1); 
 }
 .seperate {
   display: flex;
