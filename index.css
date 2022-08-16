@@ -32,7 +32,7 @@ body {
   
     color: #ca8a04;
     transform: scale(1.1); 
-
+    cursor: pointer;
 }
 div > span {
     padding-top:20px;
@@ -96,7 +96,7 @@ li {
 .fa-bell:hover {
   color: #fde047;
   transform: scale(1.1); 
-
+  cursor: pointer;
 }
 .profile {
     background-image: url('https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
@@ -113,6 +113,7 @@ li {
 }
 .circle:hover {
   transform: scale(1.5); 
+  cursor: pointer;
 }
   .row-two {
     display: flex;
@@ -178,7 +179,7 @@ button:hover {
   color: #713f12;
   border-color: #fde047;
   transform: scale(1.1); 
-
+  cursor: pointer;
 }
 .content-container {
   display: grid;
@@ -220,6 +221,7 @@ button:hover {
   border-left: solid #fde047;
   border-width: 6px;
   transform: scale(1.3); 
+  cursor: pointer;
 }
 
 .card p {
@@ -318,6 +320,7 @@ hr {
 .fa-eye:hover {
 color: #fde047;
 transform: scale(1.2); 
+cursor: pointer;
 }
 .fa-thumbs-up {
   color:#713f12;
@@ -325,7 +328,8 @@ transform: scale(1.2);
 }
 .fa-thumbs-up:hover {
 color: #fde047;
-transform: scale(1.2); 
+transform: scale(1.2);
+cursor: pointer; 
 }
 .fa-share {
   color:#713f12;
@@ -334,4 +338,5 @@ transform: scale(1.2);
 .fa-share:hover {
 color: #fde047;
 transform: scale(1.2); 
+cursor: pointer;
 }
